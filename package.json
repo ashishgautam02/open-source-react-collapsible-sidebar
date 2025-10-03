@@ -1,0 +1,46 @@
+{
+  "name": "@ashish_gautam/react-collapsible-sidebar",
+  "version": "1.0.0",
+  "description": "A collapsible sidebar component for React with TypeScript support",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "sidebar",
+    "collapsible",
+    "navigation",
+    "component",
+    "typescript"
+  ],
+  "author": "Ashish Gautam <ashish.gautam.talentelgia@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "dependencies": {
+    "lucide-react": "^0.263.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.0.0",
+    "typescript": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ashish_gautam/react-collapsible-sidebar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ashish_gautam/react-collapsible-sidebar/issues"
+  },
+  "homepage": "https://github.com/ashish_gautam/react-collapsible-sidebar#readme"
+}

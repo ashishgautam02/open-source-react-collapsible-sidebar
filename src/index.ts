@@ -1,0 +1,1 @@
+export { CollapsibleSidebar, type CollapsibleSidebarProps, type NavItem } from './CollapsibleSidebar';
